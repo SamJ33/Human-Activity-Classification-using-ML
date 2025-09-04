@@ -1,5 +1,7 @@
 # Human-Activity-Classification-using-ML
 This project aims to help understand human activity and classify it in real time according to sensory data
+
+
 [![Python](https://img.shields.io/badge/python-3.11-blue)](https://www.python.org/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)  
 [![UCI Dataset](https://img.shields.io/badge/Dataset-UCI-blueviolet)](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones)
@@ -48,14 +50,14 @@ This remapping enables applications focused on **activity intensity monitoring**
 - **Correlation Heatmaps**: Visualize relationships between features
 - **Feature Importance**: Using Random Forests to identify impactful metrics
 - **Standard Scaling**: Normalize features for better model performance
-
+---
 ## Model
 - **Preprocessing**: Noise removal, feature extraction, scaling
 - **Classifier**: Random Forest or Lightweight Transformer
 - **Activity Labels**:
 - **Original UCI Labels**: Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying
 - **Remapped Intensity Labels**: Low, Medium, High
-
+---
 ## Installation
 ```bash
 # Clone the repository
@@ -77,5 +79,3 @@ Trains the classifier and saves the model in models/.
 
 # Make Predictions
 python scripts/predict.py --model_path models/hac_model.pth --input_data data/test_data.csv
-
-
