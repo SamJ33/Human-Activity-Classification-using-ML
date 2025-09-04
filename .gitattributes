@@ -1,1 +1,3 @@
 UCI[[:space:]]HAR[[:space:]]Dataset/test/X_test.txt filter=lfs diff=lfs merge=lfs -text
+HAR[[:space:]]Dataset/test/X_test.txt filter=lfs diff=lfs merge=lfs -text
+C:/Users/jwsam/Desktop/GIT-HAR/Human-Activity-Classification-using-ML/HAR[[:space:]]Dataset/test/X_test.txt filter=lfs diff=lfs merge=lfs -text
