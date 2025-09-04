@@ -9,7 +9,9 @@ This project aims to help understand human activity and classify it in real time
 ---
 
 ## Overview
-**Human Activity Classification (HAC)** is a system that classifies human activities using smartphone sensor data, including accelerometer and gyroscope readings.  
+**Human Activity Classification (HAC)** is a system that classifies human activities using smartphone sensor data, including accelerometer and gyroscope readings.
+The system predicts activities with high accuracy, achieving **97.4% overall classification accuracy** on the UCI dataset.
+
 
 Instead of the original UCI activity labels, activities have been **remapped into three intensity levels** for activity intensity tracking:  
 
@@ -42,7 +44,7 @@ This remapping enables applications focused on **activity intensity monitoring**
 ## Features
 - Real-time and batch classification of activity intensity  
 - Preprocessing: Noise removal, feature extraction, and scaling  
-- Supports multiple classifier options (Random Forest, Lightweight Transformer)  
+- Supports multiple classifier options (Random Forest, AdaBoost)  
 - Scalable to additional sensor inputs or activity classes  
 
 ---
@@ -53,7 +55,7 @@ This remapping enables applications focused on **activity intensity monitoring**
 ---
 ## Model
 - **Preprocessing**: Noise removal, feature extraction, scaling
-- **Classifier**: Random Forest or Lightweight Transformer
+- **Classifier**: Random Forest and AdaBoost
 - **Activity Labels**:
 - **Original UCI Labels**: Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying
 - **Remapped Intensity Labels**: Low, Medium, High
